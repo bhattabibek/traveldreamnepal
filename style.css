@@ -1,0 +1,608 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.social{ 
+  padding-top: 40px;
+  }
+
+  .connects{
+    color: #f99500;
+    font-size: 40px;
+
+  }
+
+
+
+.topbar{
+  background-color:#333 ;
+  height: 45px;
+  color: white;
+ padding-top: 10px;
+}
+
+.l{
+  margin: 37px 10px;
+}
+.logobar img{
+
+  height: 100px;
+  padding-left: 50px;
+  width: 170px;
+  height: 120px;
+
+  
+}
+
+
+header {
+  background-color:#f99500;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.information{
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  color: #0072aa;
+}
+
+.demo{
+  background-color: #f1f4f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+padding: 13px;
+border-top: 1px solid #e0e3e5;
+
+}
+
+.ones{
+  color: #337ab7;
+  border-right: 1px solid #f0e5d5;;
+  padding-right: 56px;
+}
+.ones p{
+  color: black;
+}
+.twoss{
+  color: #337ab7;
+  border-right: 1px solid #f0e5d5;;
+  padding-right: 56px;
+}
+.twoss p{
+  color: black
+}
+
+.threes
+{
+  color: #337ab7;
+}
+.threes p
+{
+  color: black
+}
+.demo .towss{
+border-left: 1px solid silver;
+padding-right: 10px;
+}
+.ones i{
+  font-size: 33px;
+
+}
+.twoss i{
+  font-size: 33px;
+}
+.threes i{
+  font-size: 33px;
+}
+#main img {
+  position: relative;
+  height: 10px;
+  object-fit: cover;
+}
+
+ul {
+  display: flex;
+ 
+}
+.information2{
+  font-size: 20px;
+}
+.info {
+  display: flex;
+  padding-right: 20px;
+}
+
+#main img {
+  width: 100%;
+  height: 700px;
+}
+
+#main {
+  position: relative;
+}
+
+h4 {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  color: white;
+  font-size: 100px;
+}
+.l{
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon{
+  color:#f99500;
+  font-size: 30px;
+}
+h6 {
+  position: absolute;
+  left: 20%;
+  top: 70%;
+  color: white;
+  font-size: 50px;
+}
+
+.afl{
+  margin: 20px;
+  font-weight: 900;
+  font-size: 40px;
+}
+.flt{
+  margin: 20px;
+  font-weight: 900;
+}
+
+.search{
+  padding: 25px;
+  background-color:white;
+}
+.search h3{
+  color: rgb(20, 19, 19);
+  margin: 10px;
+  font-size: 25px;
+  padding-left: 1px;
+  font-weight: 900;
+}
+.searchbar{
+  
+  background: #FFF;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+  margin-top: 8px;
+
+}
+.fa-search{
+padding-left: 140px;
+}
+.searchh{
+  font-size: 20px;
+}
+.tour{
+  padding: 3px 10px 1px 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+.a{
+  display: flex;
+justify-content: space-between;
+padding-left: 20px;
+padding-right: 20px;
+
+
+}
+.ll{
+  border-right: 1px solid #f7eeee ;
+  padding-right: 50px;
+}
+.aff{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.aff img{
+  width: 80px;
+  height: 60px;
+}
+
+.tour i{
+  color: #a80502;
+  margin-right: 4px;
+}
+.tour label{
+  padding-bottom: 5px;
+  color:#337ab7;
+}
+.fa-star{
+  color: #f99500;
+  size: 1px;
+}
+.tourbtn button{
+  background: #f99500;
+  width: 150px;
+  height: 100%;
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 6px;
+}
+.tour::after{
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 1px;
+  height: 70%;
+  background: #ddd;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.tour select{
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: Montserrat;
+}
+
+
+
+
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  padding-left: 50px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+
+
+
+
+.headersec {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40px;
+
+}
+
+
+
+.intro{
+  background-color:#f2f4f5;
+  padding: 46px;
+  
+}
+.intro h1{
+  color: #0072aa;
+ text-align: center;
+ padding: 12px 0px;
+ 
+}
+
+.fa-facebook-official{
+color: #3b5998;
+}
+.fa-twitter{
+  color: rgb(29, 155, 240);
+}
+.fa-instagram{
+  color:  #8a3ab9;
+}
+
+.intro p{
+  text-align: center;
+  line-height: 40px;
+}
+.fa-solid .fa-person-hiking{
+  color:#cfcfcf ;
+}
+
+.intro p span{
+  color:#0072aa ;
+}
+.footer
+{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background:  #081e42;
+  
+}
+.map{
+  padding-right: 20px;
+  
+}
+
+.heli img{
+  width: 320px;
+  object-fit: cover;
+  height: 300px;
+  transform: scale(1);
+  transition: 0.4s ease-in-out;
+
+}
+
+.copyright{
+  /* display: flex;
+  justify-content: space-between; */
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background: #132e5b;;
+}
+.heli img:hover{
+  transform: scale(1.1);
+}
+
+
+.infos h3{
+  font-size: 20px;
+  font-weight: 500;
+ padding-top: 45px;
+ padding-bottom: 20px;
+ padding-left: 50px;
+}
+.address{
+  padding-left: 50px;
+}
+.infos h3:after {
+  content: '';
+  display: block;
+  position: relative;
+  width: 40%;
+  padding-bottom: 10px;
+  border-bottom: solid 3px  #f99500;
+  }
+  .services h3{
+    font-size: 20px;
+  font-weight: 500;
+ padding-top: 35px;
+ padding-bottom: 20px;
+  }
+.tour label{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+  .services h3:after{
+    content: '';
+  display: block;
+  position: relative;
+  width: 50%;
+  padding-bottom: 10px;
+  border-bottom: solid 3px  #f99500;
+  }
+
+  .services{
+    line-height: 40px;
+  }
+  .trips{
+    line-height: 40px;
+  }
+
+  .trips h3{
+
+    font-size: 20px;
+  font-weight: 500;
+ padding-top: 35px;
+ padding-bottom: 20px;
+  
+  }
+  .trips h3:after{
+    content: '';
+    display: block;
+    position: relative;
+    width: 40%;
+    padding-bottom: 10px;
+    border-bottom: solid 3px  #f99500;
+  }
+  .video h3{
+    font-size: 20px;
+  font-weight: 500;
+ padding-top: 45px;
+ padding-bottom: 20px;
+  }
+  .video h3:after{
+    content: '';
+    display: block;
+    position: relative;
+    padding-bottom: 10px;
+    width: 40%;
+    border-bottom: solid 3px  #f99500;
+  }
+
+  hr{
+    border: 1px solid #33383a;
+  }
+  .video{
+    padding-right: 50px;
+  }
+  .fleet{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    padding-top: 20PX;
+   
+   
+  }
+  .fa-search{
+    color: #004675;
+  }
+  #slideimage{
+    position: relative;
+  }
+  .bggg h3{
+position: absolute;
+top: 320px;
+left:50px;
+font-size: 30px;
+color:white;
+padding: 10px;
+background-color:  rgba(58, 55, 55, 0.74)
+  }
+  .bggg h6{
+    position: absolute;
+top: 400px;
+left:50px;
+text-align: center;
+padding: 20px;
+font-size: 25px;
+color:white;
+background-color:  rgba(58, 55, 55, 0.74);
+line-height: 40px;
+  }
+  .searchbox{
+    margin: auto;
+    margin-top: 30px;
+    width: 420px;
+    height: 50px;
+    border: 2px solid  #04AA6D; 
+    border-radius: 50px;
+  }
+
+.searchh{
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  border: none;
+  padding: 10px;
+ }
+ 
+  .heli img{
+    position: relative;
+    height: 340px;
+  }
+  .helis{
+    position: absolute;
+    color: white;
+    width: 315px;
+    height: 50px;
+    background-color: rgba(58, 55, 55, 0.74);
+    bottom: 10px;
+    left: 3px;
+    padding-left: 70px;
+    padding-top: 20px;
+  }
+  .fa-star-half-alt{
+    color:#f99500;
+  }
+  .details{
+    position: absolute;
+    color: white;
+    width: 315px;
+    height: 50px;
+    background-color: rgba(58, 55, 55, 0.74);
+    bottom: 70px;
+    left: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .price{
+    position: absolute;
+    background-color:#f99500 ;
+    width: 90px;
+    height:30px;
+    left: 1px;
+    top: 10px;
+    align-self: center;
+   
+    padding-top: 5px;
+  }
+  .fleet img{
+    border-radius: 8px;
+  }
+  .heli{
+    position: relative;
+  }
+  
+  
+
+
+.imagegroup{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.imagegroup img{
+  width: 289px;
+  height: 290px;
+  border: none;
+}
+.imagegroup img:hover{
+ opacity: 0.8;
+ transition: 0.6s all;
+}
+.imagegroup p:hover{
+  opacity: 0.8;
+  transition: 0.6s all;
+}
+.imagegroup{
+  position: relative;
+}
+.imagegroup .p{
+  position: absolute;
+  font-size: 27px;
+  color: white;
+  text-align: center;
+  width: 290px;
+  top: 80%;
+  left: 20%;
+  background-color: rgba(58, 55, 55, 0.74);
+}
+.imagegroup .q{
+  position: absolute;
+  font-size: 27px;
+  color: white;
+  text-align: center;
+  width: 290px;
+  top: 80%;
+  left: 60%;
+  background-color: rgba(58, 55, 55, 0.74);
+}
+
